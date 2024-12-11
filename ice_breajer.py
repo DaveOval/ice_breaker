@@ -2,6 +2,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 
 from third_parties.linkedin import scrape_linkedin_profile
+from agents.linkedin_lookuo_agent import lookup as linkedin_lookup_agent
 
 if __name__ == "__main__":
     print("Hello World")
