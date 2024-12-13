@@ -10,6 +10,9 @@ langchain-openai = "*"
 langchainhub = "*"
 black = "*"
 python-dotenv = "*"
+tweepy = "*"
+exceptiongroup = "*"
+flask = "*"
 
 [dev-packages]
 
